@@ -1,0 +1,5 @@
+REmember data base engines yokka main purpose yenti ante they are the ones that handle the requests and respond to the queries.
+1.Remember Dynamo db matrame No sql data base ..Aurora and Redshift rendu relational data bases.Adhi matrame non relational database.
+2.Remember that intha varaku manam ec2 lo instance ni seperate ga and storage ni seperate ga choose cheskune vallam but ikkada ee 
+data bases start ayinappudu nundi data base instance as well as storage ni rendintini okkate sari choose cheskuntunnam.
+3.

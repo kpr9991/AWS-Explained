@@ -1,0 +1,67 @@
+IDENTITY ACCESS MANAGEMENT (IAM)
+Entity ante user or group or role.
+1.It is a service provided by aws.
+Remember you have some data in a server or you have a aws account that is used to acess store or perform many operations on data and that services can be accessed by others
+by the usage of your account or in many cases they acess the services with their specific ID's.
+
+2.What it means is that you have an aws account and your aws account will have the services provided by AWS . So if any user other than you would like to access the services 
+and make changes or such activities in your aws account services , then they will need your account info with password . This is what the usual way is . 
+By using the Identity Access management Service provided by AWS other person can use your account even without the need to your account information. This is the feature of IAM.
+ 
+3.It provides features like Multifactor Authentication(providing a seperate access code along with login info for secure login) , Identity federation(i.e A single aws account can be used by 
+suppose you have created a mobile game and users need to store the data of the mobile game that you have created in the server 
+users by providing their Gmail or using faceBook for login etc such for that you have created in aws so for this they need to login right
+ so for using your data base and the services provided by aws they will usually use their facebook id or linkedin id to login and store data this is Identity federation and if a user uses
+ his/her windows/Mac login credentials to login then this is called Active directory),Granular Permissions(So you can restrict who are gonna use your aws account link and what the services
+ can they use by etting the group permissions user permissions etc such.),Identity information for Assurance.
+(This is a log of information about the people who have made requests to access to your account),Shared access to your accounts(Many people can access).
+
+4.Key terminology for IAM 1.USERS 2.GROUPS 3.POLICIES(The list of permissions provided so) 4.ROLES (Ability of one service to work with another service i.e Virtual Machine 
+might be in need to write the data to store in S3 storage .So in that way one aws service using other service) is discussed in ROLES.
+
+
+Identity Access Management Second Lecture.
+1.The top right of our console we have the regions where we need to select a region from drop down menu and VIRGINIA region is usually preferred so 
+and the reason is it is the most updated region with updates on latest services provided by aws .
+
+2.Remember Users are global so you are not creating a user in viginia and user in mumbai or such ..A user is a user..he is global.So when you are creating a user who would access 
+your content through your AWS account permissions he is a global user i.e IAM does not require location. You can create a user from any where.
+
+3.Services button provides list of services arranged in Specific containers.
+
+4.Who is a root user ?
+A root user is you .Who have created the AWS account.Who is allowing others to access your content.
+
+5.How can users login to your account ?
+They can use IAM users sign in link that displays alias name and the user needs to type his user name and password if he has got , to enter into the AWS management Console.
+Why does he want to enter ?..Haha as i have said ,A user might be a pubg player who has given his fb id to login and now the data related to his account needs to be stored
+under that organisations root user account.
+
+6.Why do we need to Activate MFA on root user ?
+Remember this MFA is for the person who is accessing the root user account and not for the user account purpose.
+So if some one gets your id i.e root user id and password even then he must not be able to access because if he accesses it then he will be using all the services and this is 
+threat to data ..So for this multiFactor Authentication is provided.This helps for us to secure our account even if somebody has access to our mail and password .
+The root user email and password is his AWS account login mail and password.
+
+7.GOD MODE ?
+The user has ultimate access to all the services provided by aws . He has rights equivalent to a root user.
+
+8.When you are adding a user to access the aws services the user can access the services in two ways :They can programmatically access or they can use AWS management
+console to access to the AWS services.
+
+9.The user needs to be granted with any permssions directly or by adding him into the group where the user inherits the permissions of the group .
+
+10.While selecting the policy this restricts the group or user to work by being bounded to the policies .They cant go beyond that .
+
+11.So yes when a user is addes to use aws service depending upon what kind of service that the user would like to use for Eg: A network administrator requires different 
+permissions when compared to a user Readonly who does only read operations and nothing else.
+
+12.CSV files containing the credentials  of users are one time viewable in console .So they need to be downloaded for future reference.
+
+13.Policies are permissions that are provided for a user or group.This policy details are specified in a JSON file . Example for Administrator Access policy the JSON script
+says allow to do any action on any resource in AWS.
+
+14.For progrmmatically accessing the services provided by AWS the two fields are present in .csv file. One is Access Key id and another is Secret key .Access key id is
+Login Id for Programmaticallly accessing and password for programmatical access is Secret key.
+
+15.Aws cloud Trial is a service for security related things like getting a log of information about the logged in users and the services used by those users etc.

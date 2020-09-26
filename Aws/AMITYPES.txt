@@ -1,0 +1,8 @@
+1.AMI ante operating system , server that is used to run the applications on cloud server.
+2.Adhe instance type ante aa operating system run avvali ante kavalsina cpu and architectural specifications ni provide chesedi.
+3.Nee operating system ni run cheyali ante u need that Storage that is usually provided by the EBS storage and Instance store.
+So these are two that provide storage service for the root device volumes.
+4.SO simple oka AMI thana storage ni EBS backed volume ni pettukundha lekunte thana storage ni Instance store ga pettukundha anevi two 
+classifications .
+5.Remember that nuvvu create chesina snapshot  s3 lo store avuthundi.So aa snapshot malli yeppudu kavalante appudu we can use.
+6.Root device volume ante just operating system ni store cheyadaniki use chese storage space.

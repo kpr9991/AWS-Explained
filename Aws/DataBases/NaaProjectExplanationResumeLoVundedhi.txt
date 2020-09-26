@@ -1,0 +1,23 @@
+EE text file lo ec2 instance create chesi,RDS instance create chesi, server lo wordpress install chesi,
+a ec2 instance ni route 53 lo mana domain ki map cheyatam gurinchi raasa.
+
+1.Data Base Ante collection of rows and tables.
+
+58 th video explanation:
+
+
+So Basic Ga first Data base ante collection of rows and columns and DataBase engines like Amazon Aurora and mysql alantivi DataBase ni access cheyataniki use ayye engines.
+RDS instance DynamoDB anevi Just DataBase lo unde instances.So DataBase instances anevi DataBase lo untayi anuko.
+
+Now,First RDS instance ni create chesi, Daaniki Security group ni kuuda add chesi create chese tappudu Oka ec2 instance tho webserver create chesi,
+ee ec2 lo create chesina webserver aa data base tho matladali ante,RDS instance yokka security group inbound rules lo daani Engine Mysql nundi,ec2 instance tho matladataniki
+inbound rules lo MySql aurora ni click chesi,Webserver DMZ ane security group ni select cheyali.
+Ippudu RDS instance Webserver DMZ ki vachche requests ni handle cheyagaladu.So ec2 instance ni create chese tappudu,bootstrap script lo wordpress and Php installation chey.
+Now ec2 instance yokka IP address ki velthe wordpress installation kanapadthundi.Akkada rds instance ni create chesetappudu ichchina DB instance name,DB name password 
+(Anni okkate ivvu not to get confused)avi type chey.Now database daggara aa wordpress install ayyindi webserver lo and aa word press use cheskune data base RDS instance
+So thus create chesina RDS instance yokka end point vutadhi aa end point ni akkada copy paste  cheste, aa RDS database ni mana worrdpress use cheshtundi.
+But Inko problem vasthundi,aa case lo just ec2 ki connect ayyi akkada vachche content ni copy paste chey.(yenduko teliyadhu).
+
+Ila create chesina tarvaatha route 53 loki velli oka hosted zone create chey and then nee privas.xyz ane domain ni ec2 instance yokka ip address ni teesukuni 
+oka record set of A type ni route 53 lo create chesi aa ip address ni paste chey.Hosted zone create chesina tarvaatha vachcina nameservers ni godaddy loki velli register cheyyi.
+Aa change reflect avvataniki it takes around 2 hrs.So yentha sepaina ralede website anukovadhdhu.

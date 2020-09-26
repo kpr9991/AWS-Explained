@@ -1,0 +1,9 @@
+1.Remember that oka region ni paina select cheskunte right side lo nuvvu next deynni launch cheyalanna aa region lo unna availability zones
+ni chupisthundhi and aa region lo neekantu oka vpc create avuthundhi. So VPC ni select cheskunne tappudu default pettukunte 
+2. oka vpc lo different availability zones lo unna subnets ni pettukvachchu.Same availabilty zone lo rendu Subnets ni create chesi
+kuuda we can add them into the VPC.
+3.So yeh availability zone lo anna yenni subnets kavalanna create cheskovachchu.yeh subnets ni yenni VPC lu create chesi anna vesukovachchu
+overlap kaakunda ante suppuse that oka vpc lo already add chesina subnet ni inko vpc loki add cheyyaku.
+4.Remember vpc is global...So no need of confusion for availability zones for vpc.
+5.REmember load balancer just oka region lo create chestav and not availability zone speciffic.
+6.

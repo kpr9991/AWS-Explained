@@ -1,0 +1,24 @@
+1.Non relational databases and relational databases ki main difference suppose nuvvu oka column ni add cheyali anukunnav anuko and that
+column ki sambandhinchina data nee daggara oka user dhi matrame undi ante migatha users ki aa place empty ga pedtaav relational data 
+base lo adhe non relational databases lo nuvvu specific ga aa column ki aa user ke add cheyachchu...adhe advantage.
+2.OLTP simple oka key use chesi retrieving the data related to the transaction ..adhe OLAP ante performing larger queries ...Larger queries in
+the sense complicated queries that perform large amount of processing will come under olap .
+3.Amazons product for data ware housing is Amazon redshift.
+4.Elastic cache is cache for the data base .Thats it .Suppose that u have a data base and the data base is getting similar query requests all the time
+so next time you would cache that data and that would give the good perfomance thus we can have  a faster access.
+5. Remember no sql ante non relational database ani meaning ante relational data base la data tables and rows lo store avvadhu.
+6.Dynamo DB best example for non  relational database.
+7.Database ki s3 ki pedda difference ledu ..Data base ante chinna chinna queries ki responses ivvatam adhe s3 ante pedda pedda objects ni 
+store cheyataniki and retrieve cheyyataniki  use chesedi.
+8.So aa ec 2 instance direct ga database tho matladaledu kada so for that the Engine needs to be used and that engine so used is Mysql.
+9.So ikkada ec2 instances ni create chesetappudu rds instance ki kuuda security group  already create ayyi untundi kada aa rds instance yokka security 
+group and ec2 instance yokka security group rendu matladukovali kada yendukante mana ec2 instance aa data base meeda unna rds instance 
+tho matladi aa data base nundi data ni retrive cheyali so daani meaning vaati rendinti madya we need connectivity to make both of them
+discuss ..Thus manam inbound ports ni add cheste EFS lo NFS ni add chesam kada ala ikkada rds ni add cheste they both can talk.
+Remember these both above speak using my sql port .
+10.So ee 2nd video on data bases lo conclusion yentante wordpress is an open source software danni mana servers lo install cheskovachchu
+So aa wordpress software ni manam oka ec2 instaance ni create chesi aa instance lo wordpress ni install chestunnam .Aa tarvaatha wordpress
+data store cheskovataniki kavalsina data base rds instance create chesam kada aa rds instance yokka end point ni local host lo paste cheste
+aa wordpress that is running on our webserver which is an ec2 instance will use the data base created by us for storing our data.
+11.oHh so point yentante nuvvu wordpress use cheskoni neeku kavalsina website prepare chestav kada aa website ki data base eh nuv
+ichche data base.

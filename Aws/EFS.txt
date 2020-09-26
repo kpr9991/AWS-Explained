@@ -1,0 +1,7 @@
+1.EFS ante elastic file instance ante usual ga mana dagara unna ebs volumes ni yedo okka ec2 instance can use once and not both or many
+but oka efs can be used by many at once deeni main purpose yenti ante suppose nuvvu oka website create chesav anuko aa website ki sambandhinchina
+file usual ga cd var/www/html ane folder lo pedtav kada aa folder ni aa ec2 instance yedhi aa ebs volume ni use chesthondho adhi matrame
+chuudagaladu ..But neeku anni instance lu same page nu chudali ani vundi anuko appudu you can use this elastic file system.
+2.EBS Ki ayithe starting lone manam space  ni fixed chesestam adhe efs ki avasaram ledu. 
+3.Note that for those both instances to talk to each other we need to allow NFS in security group that will allow or be as a passage system between both
+to talk to each other.

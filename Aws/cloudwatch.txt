@@ -1,0 +1,23 @@
+
+
+1.Aws lo unna services yela pani chestunnayi ani monitor chesedi cloudwatch.
+
+2.Aws manam chestunna actions ni  recorde chesi AWS api ki data apampinchedi cloud trail.So rendiniti tho confuse avvaku,cloud watch ante perfomance ni monitor chesthundtundi,
+perfomance ante ec2,route53,database, iavanni yela perform chesthunnayi ani monitor cheytam.Billing alarm kuuda cloud watch lone choose chestam.Cloud trail ante,
+Just mana actions ni record chesthundi.Adhi manam s3 bucket ni create cheyatam lekunte ec2 ni create cheyatam alanti vaatini logs loki raskuntundi.
+
+
+
+4.So cloud trial ante just gives the details about who are all the ones using the services provided by aws and what kind of service was last used.
+
+5. Remember status checks two untayi okkati system status check and inkoti instance status check.
+
+6.So cloud watch lo neeki kavalsina metric ni pettukoni aa metric paina monitor cheyachchu.. Adhi complete customizable.
+
+7.Note that manam ec2 instance ni terminate cheste daanitho paatu relate ayina ebs volume kuuda delete ayipothundhi.Adhe manam ec2 instance 
+ni stop cheste ebs volume delete avvadhu...So deeni valla u might be charged.
+
+8.Just ec2 instance create chestunnnapudu cloud watch detailed monitoring enable chesav ante,(Remember idhi  free tier kaadu),
+Ila cheste,cloud watch ku velli alarm create cheyachhhchu,ikkada vaadu ec2 instance ni create chesi daaniki connect ayyi,daantlo cpu ni maximum utilize cheyataniki infinite loop 
+use chesadu.So Antha kante mundi cloud watch kelli ec2 instance ki CPU utilization metric petti,CPU utilization if it crosses90% then manaku mail vasthundi.But deeniki dabbulu cut
+avuthayi.

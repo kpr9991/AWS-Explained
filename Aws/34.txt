@@ -1,0 +1,31 @@
+1.Sytems ni maintain chese ki head lantidi server ante.
+
+2.Previously server ni maintain chetaniki Danni first koni danni bootup chesi aa tarvaatha start chesi use cheyalsi vachchedi But ippudu alanti 
+avasaram ledu .Server cloud lo undadam valla manaku main use yenti ante we can customise the server with type of Ram we need amount 
+of Cpu we need for the running of the serverdff dfghj1  
+
+3.Capacity ki thaggatttu scale avvatam ee elastic compute cloud ki telsu.
+
+4.On demand pricing ante manaku exact yenni hours kavali ante anni hours ki matrame use cheskovatam.Deeni vallla long term committments 
+ki dhooranga undochchu. Short term lo application yokka working ni teluskovali ante danni On demand pricing use chesi manaku yenni hours ka
+vali ante anni hours matrame use cheskovachchu.
+
+5.Reserved ante manaku yentha load aa server paina paduthundo munde telisunte adhe fixed ayithe appudu Reserved 
+type of pricing ni use cheyachchu.
+
+6.Spot pricing ante unused servers ni manam vaadukovachchu but problem is that they would terminate that once they are in need of it .
+
+7.Amazon machine image is nothing but the operating system that runs on the server.
+
+8.Amazons Machine image will also be having the login id and password that will allow only the authenticated users to use the server.
+
+9.We can specify the amount of ram and rom we want that operating system to operate on.
+
+10.Instance type ante the hardware that u need your system to work on. Ante aa CPU RAM anna ga adhi.
+
+11.Storage volumes is the place where the operating systems are running .
+
+12.Security group ante nee instance ki access ni restrict chetaniki , ante ports lonchi instance ki vachche requests ni monitor chetaraniki we use this 
+security group.
+
+13.Security group lo ec2 instance yeh IP nundi requests ni allow cheyali ane danni kuuda we can select.

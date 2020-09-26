@@ -1,0 +1,27 @@
+1.EBS ante Elastic block store. ante mana operating system ni store cheskovataniki use chese space ai anuko .
+
+2.Oka basic thing yentante nuvvu volume ni yekkada create chesavo nee operating system and the instance kuuda aa region lone undali kada.
+So check whether its true or not .
+
+3.So storage or volume ante mana operating system run avvataniki kavalsina space ..so operating system store ayyedi oka chota and adhi 
+run ayyedi oka chota ila jaragadhu kada so andu valana mana rendu okkate chota create avvabadathay.ante oke region lo.
+
+4.By default root volume ki delete on termination on lo untundi and migatha volumes ki adhi on lo undadu so manam adhi kavali ante on cheskovachchu.
+
+5.Note that terminate cheste aa volume delete ayipothundi adhe stop cheste delete avvadhu..So stop cheste that vollume will remain running 
+and so you will be charged.
+
+6.So storage ni encrypt cheyatam ante aa  operating system store ayye space lo unna data ante aa os data ni encrypt cheyatam.
+
+7.Additional volumes ni add chesinappudu aa delete on termination on avvaledu chusava so adhi default ga add ayyedi just root volume ki 
+matrame.
+
+8.Remember root volumes lone the operating system is stored.
+
+9.Mostly snapshot ante idhi yem yem settings tho prepare cheyabadindhi ane daani gurinchi details cheppedi.
+
+10.Virtualization ante just virtual copy of something create chesedi..it can be anything like it can be server or storage or etc.
+
+11.Virtualzation lo just hardware virtualization ni select chesko.
+
+12.Note that ec2 instance ne copy cheyachchu using the copy of ami.

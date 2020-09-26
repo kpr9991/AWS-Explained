@@ -1,0 +1,5 @@
+1.Non relational database that runs on the engine Dynamo DB. It is also a no sql database .
+2. The main difference between strong consistency and eventual consistency is that eventual consistency would take the
+ latency time greater than one second where as strong eventual consistency would take latency time less than 1 second in the sense the 
+update that you have made will get reflected and the read that you are performing will get the response in less than one second in strong 
+consistency whereas in eventual consistency this would take some time but that is just greater than one second but not very much greater.

@@ -1,0 +1,5 @@
+1.WE have this service that helps to cache the regular queries and next time when the ec2 instance will request the data base about the data 
+with quries first the requests are sent to the elastic cache and if the elastic cache is not able to satisfy the requests then the requests are passed
+to the data base.
+2.Ante take example of :Oka website lo top 10 contents provided ani type cheste,aa website lo provide chese top 10 content ni yekkuva mandi request chestuntaru,
+So aa data ni frequently accessed content kindha pedthe,appudu fast ga load avuthundi aa data.So latency time thagginchavachchu.

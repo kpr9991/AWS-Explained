@@ -1,0 +1,37 @@
+Asssalu IAM ROLE ante yenti:
+
+1.First ec2 instance ni create chey.
+
+2.Ec2 instance paina connect ane option untadi console lo,danni click chey.Connect through ec2 instance ani click chesi connect press chey.
+
+3.Now,Nuvvu inka root user kaadu.
+
+4."sudo su" ani type cheste root user avuthav.
+
+5.But first sudo su command type cheyakunda just "cd ~","ls .aws" ani type cheste,appudu yem folder ledu ani chupisthundi.
+
+6. "sudo su" ani type chesi ,"cd ~" ani type chesi,"ls .aws" ani type chesina no such file or directory ani chupisthundi.So thus,
+
+7."aws configure" ani type chesi,access id secret access key iste,appudu,oka user ga aws ni run cheyachchu command line nundi.
+Adhe "sudo su" ani type cheste "root" user ga access cheyachchu "aws services" ni.
+
+8.Aa user ni create chesetappudu yem priviliges ichchavo aa services ni command line nundi access cheyachchu aa user gaadu.
+
+9.Ippudu ec2 user ga secret access key and access id and region(us-east-1) ichchi login ayinappudu ,
+ "cd ~" ani type chesi "ls .aws" ani type cheste,appudu config and credentials file kanapadthundi.So ".aws" folder loki velli
+nano credentials ani type cheste,aa login ayyina user credentials kanapadthayi.Oka vela ".aws" folder delete chesav anuko,
+appudu malli aws s3 mb s3://bucketname ..ilanti aws seervices ni vaade commands ni use cheyalev.So aa case lo ,
+
+10.ROLE anedi topic loki vasthondi,
+
+11.Roles loki velli yem service loo select chey.(EE service yedanna user nee tarapuna use chestunnatu lekka).And then aa role ni dharinchinavaadiki yem permissions
+istunnavo select chesi create chey.
+
+12.Ipppudu ec2 instance daggara ki velli role atttach chesav ante,user credentials lekundane aa role lo specify chesina permissions lo unanvi  avanni access cheyachchu.  
+
+13.So ippudu s3 bucket ni access cheyachcu.
+
+14.Adhe advantage role valla.
+
+15.Remember root user ga unte,yem services ni access cheyyalemu) Just root user ki yum update httpd install ivi cheyachhcu,But adhe aws configure user
+chesi login ayithe,aa login ayyina user ki ichchcina policy lo unna services anni access cheyachchu.

@@ -1,0 +1,4 @@
+HA in the sense high availability.
+1.Simian army is  nothing but net flix tools that will cause any outages in the data centers due to which some times data centers data 
+might be lost or anything might happen and so inorder to avoid those and all or the data center must be good enough to cope with such problems.
+2.

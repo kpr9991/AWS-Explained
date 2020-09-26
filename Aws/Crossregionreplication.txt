@@ -1,0 +1,7 @@
+1.We can replicate buckets and not the Objects.
+2.usually the data is replicated in more than one availability zone in a region when we have Stored using in S3 using replication then 
+the data is being replicated in more than one region.That is the advantage  of storing in more  than one region. 
+3.Remember in replication we can only replocate onlu the data that is further being uploaded into the bucket and not all the data that is previously present .
+4.https://docs.aws.amazon.com/AmazonS3/latest/user-guide//enable-replication.html   Check out the 9th point here which says the use of role in
+aws replication . So that role helps S3 bucket to replicate the data on behalf of you .Doing something on behalf of someone is nothing but playing 
+an IAM role.

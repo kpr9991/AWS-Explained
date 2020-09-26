@@ -1,0 +1,14 @@
+1.In Cloud front we can create a distrubution which gives a domain name for the storage or the server we have and that domain name is sent 
+to all the nearby edgelocations and (not the data that is present in the bucket only the name of the objects along with that domain ).So the 
+advantage of this is that when a user makes a request for data , the request is sent to the nearest edge location and the edge location cache is 
+checked for the data and when it is present in the cache the data is sent else since we have the links already stored for the data the link for the 
+particular requested  , that links are used and the data is from origin server is bought and again made a copy of it in the edge location and then 
+the data is sent to the user .This all things are done by Aws cloud front service.
+
+2.Path specifies the exact location of the requested object in the s3 bucket.(Suppose the bucket you have specified might be having any folder:).
+3.Two ways in which the data in the buckets can be accessed is by using the s3 link and another by using CloudFront Link.
+4.Note that we can save the number of days you would like to cache the content using the TTL in creating the distribution and the content will be ca
+ched in the edgelocation.
+5.When the uploaded object has not been uploaded completely then this might cause an issue and so inorder to avoid  this you can use invalida
+tion to completely remove the cached content that has not been fully uploaded.
+6.This is soooo easy.	

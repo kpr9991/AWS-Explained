@@ -1,0 +1,20 @@
+1.Data warehousing also means the same working with database but the queries 
+will be Complex in this and we have to deal with large amount of data than that of data bases.
+
+2.We have both Amazon Aurora and Amazon redshift database engines both are being usually used for managing the data bases
+ and RDS instances  can run any engine what we have selected on the database to run.
+
+3. Ec2 instance or a web server will be communicating with the RDS instance and RDS instance will communicate with the storage
+ for retrieval of the data and this storage is nothing but the database so we can perform any operations on the database.
+
+4.S sofa performing simple queries like online transaction processing queries we have many database engines but for 
+performing Complex queries like the operations that are related to the data warehousing data warehousing in the sense 
+collecting data and working with the data and the data will be larger in amount so with large amount of data how the way we will work 
+will be considered under data warehousing so for doing this data warehousing Corporation we have Amazon redshift and 
+it is also just like dealing with database what we usually have already seen in this online transaction processing like we have
+ seen many other kinds of Indians like no SQL my SQL and all so how the way this is different in the sense this will deal with larger
+ applications like data warehousing this amazon's red shift.
+5.
+
+
+

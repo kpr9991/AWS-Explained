@@ -1,0 +1,24 @@
+1.Aws ni command line nundi as well as Console nundi Access cheyachchu.Command line nundi access ayyeki use ayyevi access id and secret access key.
+Ee video lo just command line nundi aws ki connect ayyi,s3 bucket ni create chesadu,using aws s3 mb s3://bucketname.
+
+Just ec2 instance ni start chey and then,user ni create chey aa user ki admin access ivvu lekunte nee istam yedanna ivvu,but s3 access iste command line lo nundi s3 bucket ni create
+cheytam yelano chudavacchcu,Now aa ec2 instance ki connect ayyi "aws configure " ane command type chey.Aa tarvaatha access programmatic access kosam ichchina access id and 
+secret access key user dhi, adhi aduguthundi avi ivvu and region us-east-1 ivvvu(Just ivvu anthe),Aa tarvaatha,enter press chey anthe,So akkda nundi command line lone s3 bucket 
+create cheyatam alantivi cheyachchu.
+
+
+
+2.+EcmpZEHfMbOcrCeIA43Gx/FVPhdjgFx10bDCkU7 secret access key.
+
+3.AKIA4CMMKOSMPJIL3YEX   Accesskeyid
+
+4.Even if we loose the access key id we can go and create the new one by making the current one inactive in security credentials.
+
+5.mb is used to create the new bucket in aws command line interface .
+
+6.Note that manam okavela create chesina user ki aa admin privileages ivvaledu anuko then that user will not be allowed to create a bucket
+access denied ani vasthundhi aa change oka 10 to 15 seconds lo reflect avuthundi.
+
+7.Command line interface lo mana secret access key and access key id ivi rendu configure ane file lo stored ga untay so daani valla manaki 
+nastam endukante yavaranna mana console ni access cheste aa .aws file lo unna details teliste chaalu vallu yekkada nundi ayyina access
+chese chance undi So aa access ni restrict cheyali ..so aa file ni yavvaru access cheyyakunda u have to take care of that file.

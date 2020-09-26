@@ -1,0 +1,10 @@
+Remember amazons RDS is just a service that helps to create and manage the data base.
+1.Backups are created for RDS instances automatically.Those backups are stored in S3.
+2.So while you are restoring the data into the back to rds a new end point is created ...Bear that in mind.
+3.Note that u have 2 ways of backing up one by using Automated backups and other by creating a snapshot of the RDS instance that will help 
+you to do the backup.
+4.Multi Az also means the same as the Backups ...here even the data is Backed up and in the event of failure the availability zone to which the 
+data is backed up is Changed as the end point of the ec2 instsance and this is done by amazon so no need to worry.
+5.Read replica is nothing but writing to only one data base but having the copy of that data in many data bases and this helps for the faster reads.
+6.Read replica will be having a different end point and this can only be used for reads and not writes.
+7.

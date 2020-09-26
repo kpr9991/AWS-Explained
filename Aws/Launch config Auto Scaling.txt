@@ -1,0 +1,6 @@
+1.Remember a Availability zone can have more than one subnet a single subnet cannot span accross multiple availability zones.
+2. Auto scaling group simple just oka collection of ec2 instances ni create cheyatam..And vaatiki auto scaling pettatam valla advantage 
+yedhanna ec2 instance terminate ayyindante auto matic ga manam ichchina configuration tho inko ec2 instance ni spawn cheyyachchu.
+Deeni valla use yenti ante just server fail ayyina perfomance paina effect avvaraadhu ante we can do this that helps us to create the servers
+automatically to maintain scaling.
+3.

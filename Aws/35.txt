@@ -1,0 +1,65 @@
+1.Subnet is nothing where would you like to launch your ec2 instance.
+
+2.Cloud watch will help to monitor the Ec2 instance , depending upon the amount of time break after which the cloud watch needs to monitor the 
+Ec2 instance we will be having the pricing .(Ante Billing alarms create chesave adhi).
+
+3.EBS volumes ni Operating System choose chesintam kadha danni store cheseki use chestam.
+
+4.Tag valla main use yentante one can easily access the data ante okavela we have finance department aa finance department kindha unna
+anni objects ki okkate tag ichchamante appudu anninntini okatesari access cheyachchu.
+
+5.Security group  so simple just yeh ports nundi requests raavali anedanni select cheskovali ante we can use this security groups.
+Ante nee EC2 instance ki requests vasthayi kada aa requests yeh port requests nin accept cheyali anedanni select cheyataniki vaadedi securitu
+groups.
+
+6.So ee instance ki key value pair kavali kada aa key  value pair use chesi you can access the instance what you have created . so adhi asymmetric 
+ayyiintundi ante needaggara private key untadi and public key ni amazon maintain chesthundi So this is like a security to your instance.
+
+7.Instance type is simple Just mana Server yokka operating system work cheyalante Ram , CPU kavali kadha aa ram and Tcpu different sizes lo 
+untayi requirements ni batti . Yeh instance kavalo aa instance ni select cheskovachchu.Ala konni configurations tho munde prepared 
+Instances untayi ave manaku instance types lo kanapadathayi.
+
+8.Remember twist yentante nuvvu create chesina server instance nuvvu S3 bucket ni create chesina chote create cheyalsina avasaram ledu.(Ante region Gurinchi cheptunna)
+
+9.Usually on instances the applications are being run.
+
+10.Storage is nothing but nee os usually ssd meeda run avuthundi kada ala seperate storage E drive unna kaani os ki matram 256 gb ssd ni i
+istunnam kada yenduku just to increase the speed of computation.  
+
+11.Subnets might be different for the two accounts.
+
+12.Capacity reservation ante daani paina pade load munde teliste aa load ni batti manam aa server yokka capacity ni reserve cheychchu.
+
+13.Monitoring is nothing but just mana ec2 instance ni cloud watch anedi monitor chestu untadi.
+
+14.Tenancy ante sharing of hardware by many of them in creating the ec2 instance.
+
+15.Security group simple mana instance ki yeh requests ravali ane danni select cheyataniki use chesedi.
+
+Instance ni create cheyagane Public DNS and Public IP rendu vastayi,So adhi mana server ki user reach avvvali ante, browser lo adhi type cheyali.
+
+16.Mana instance ni use cheyali ante public key and private key kavali,Ee Public key ante Amazon daggara untadi private key mana daggara untadi,So ec2 instance ni 
+Secure shell  app use chesi,key pair use chesi login ayyi.
+
+17.Manam webserver ni chestunnam basically mana website ni run chesi user requests handle cheyataniki.So ec2 instance ni create cheyagane,Public IP address vasthundi 
+daaanitho server ki connect ayyi,manam mana website ni install cheyachchu,lekunte html files ni upload chesi run cheyachchu.etc
+
+20.Normal gane connect avachchu server ki ec2 connect use chesi,but secure shell app use chesi cheste inka bautadhi so daaniki first public key ni generate cheskovali,
+So nee daggara unna keypair file tho pub file ni create cheyatm command prompt lo 34th video lo 13th minute nundi vundi.So aa process avvagane secure shell app use chesi 
+ec2 instance ki connect avvachchu.Connect avvagane yum update cheyatam and then apache server ni install cheyatam.Apache install cheyatam yendukante ec2 instance ni webserver
+ga cheyali ante ila cheyali.Install cheyataniki command:yum install httpd -y.
+
+21.Akkada cd /var/www/html  ani type cheste html folder loki velthav,Akkada nano index.html ante,aa html page open avuthundi.Aa html page lo manaki kavalsina content ni raasi,
+"service httpd start" ante matrame server start avuthundi.So aa tarvaatha "chckconfig" on ani type cheste ec2 instance reboot avuthunnappudu automatic ga page reload avuthundi,malli manual
+ga manam cheyalsina avasram ledu.Remember security group lo http service ni allow cheyali ani vundali lekunte,Work avvadu nee web page.
+
+22.service ni stop cheyali ante use "service httpd stop".
+
+23.
+
+
+
+
+
+
+
