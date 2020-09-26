@@ -1,0 +1,71 @@
+ 
+1.Server and space ni konalsina avasram ledu.
+2.Physical servers avasram ledu.
+3.Lots of certifications like solutionarchitect,MachineLearningSpecialist,AlexaSpeciality,S3Bucket(Public access iste bucket ki manam bucket lo object url use chesi,
+4.Cross region replication.
+5.Edgelocations,Resource edge cache.
+
+
+certificate are available.
+
+Security kosam yen chestav ante Kindha IAM,S3Encryption,Ec2SecurityGroups gurinchi Cheppu:
+
+***************IAM:EdgeLocations,regions,RegionaledgeCache,AvailabilityZone,Root User,MultiFactorAuthentication,
+Users,Programmatic access,Console access,Groups,Policies(Permissions:TotalS3Access),
+Roles(OneServiceWithAnotheri.e Ec2 with S3).Evadu login kavalanna Root user nee account eh
+but Vaadiki ichchina policy lo unna services matrame vaadu use cheyagaladu,CSV file,
+
+***************S3 lo encryption cheyachcu,Just object daggara yeh type of encryption chestavo(like AES,KMS) select cheyatam anthe.
+***************Security groups ante nee Ec2 instance ki yeh ports nundi requests ravali ani select cheskovataniki use chesedi.
+
+ 
+
+Amount Limit yela teluskuntav:
+Billing alarm create chesi,metric,Currency,Time,EmailNotification.
+
+S3:Simple storage service:
+
+TieredStorage,EncryptedStorage,Public access bucket ki as well as Object ki rendintiki ivachchu,Okko bucket ki specific ga kuuda ivahchcu,
+Bucket ki url undadu bucket lo unna prathi  object ki url untundi ,Object ni public cheyali ante first bucket public avvali kadha,
+LifeCycleManagement(Object yokka storage tier ni change cheyatam,Eg:Inni days tarvaatha standard Storage tier nundi,
+Glacier storage tier loki move avvali ani select cheyyatamEg:2 Inni rojula tarvaatha automatic ga delete avvali ani cheppatam),
+Versioning(Ante okkate file yokka different versions ni store cheskovatam.)Remember every version ki upload ayina file prathi dhi S3 size ni increase chesthundi. 
+TransferAccelaration,Cross RegionReplication Gurinchi Just Idea petko.Cloud Front gurinchi CloudFrontLab text file chuudu),StorageGateway ante oka company yokka database ni
+cloud ki transfer cheyataaniki use chesedi.(Files..etc)
+
+EC2:Elastic compute cloud:
+1.34 Name unna File chaduvu Aws folder D drive lo undi.
+sudo su ante root account la manam use cheseki aws ni.
+
+Ec2Instance ni Runcheyatam Yela:Once ec2 instance ni create chesina tarvaatha,Console lo connect ani click chey,Root acc loki raavataniki,"sudo su" ani type chey,
+Akkada apache server ni installl cheseki,yum install httpd -y ani type chey.
+
+2.35 Ni chaduvu.
+3.AMI(OperatingSystem),InstanceType(RAM AND ROM TO RUN Operating system),SecurityGroups(Inbound and outBound rules use chesi,yeh IP addresses ni allow cheyali
+mana server ni use cheseki ani select cheyatam).
+4.EBS ane file chuudu.
+AMI CHAdvaledu Because volumes and snapshots depth ga undi.
+5.CloudWatch ane file chaduvu.
+6.IAM roles ane text file chaduvu.
+7.UsingBootStrapScripts ane file chaduvu.
+8.EFS ante Just anni ec2 instances okkate html file ni chudali ante.
+
+
+DataBases:Read DataBases Folder(Akkada NaaProjectExplanation ane file Chaduvu *forproject)
+Route53 ki nee route 53 folder ni chaduvu.
+
+ikkadiki project varaku okay. 
+
+
+Now extra things:
+
+
+
+
+
+
+
+
+
+
+
